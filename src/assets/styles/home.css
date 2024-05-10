@@ -20,8 +20,8 @@ section {
 }
 
 .home-content h1 {
-    font-weight: 500;
-    font-size: 4rem;
+    font-weight: 700;
+    font-size: 7rem;
 }
 
 .home-content span {
@@ -30,6 +30,24 @@ section {
 
 .home-content h3 {
     font-size: 3rem;
+}
+
+.home-content p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 1000px;
+}
+
+.soial-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    font-size: 2.5rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
 }
 
 
