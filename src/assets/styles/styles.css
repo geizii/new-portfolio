@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url("reset.css");
+@import url("header.css");
+@import url("home.css");
+@import url("footer.css");
+
+
+:root {
+    --primary-color: #021002;
+    --secondary-color:  #101010;
+    --text-color: #fff;
+    --main-color: #900bf5;
+    --grey:#535357;
+}
+
+
+html {
+    font-family: 'Ubuntu sans', sans-serif;
+}

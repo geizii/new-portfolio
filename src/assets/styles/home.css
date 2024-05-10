@@ -1,0 +1,40 @@
+section {
+    min-height: 100vh;
+    padding: 10rem 10% 10rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.home-content h1 {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.home-content span {
+    color: var(--main-color);
+}
+
+.home-content h3 {
+    font-size: 3rem;
+}
+
+
+.home-img img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}

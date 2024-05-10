@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    background: var(--secondary-color);
+    color: var(--text-color);
+}
+
+html {
+    font-family: 'Ubuntu sans', sans-serif;
+}
