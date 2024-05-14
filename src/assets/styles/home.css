@@ -6,53 +6,105 @@ section {
 .home {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 15rem;
 }
 
-.home-content {
-    display: flex;
+.home-title {
+/*     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    text-align: left;
+    /* align-items: baseline; */
+    text-align: center; 
     margin-top: 3rem;
 }
 
-.home-content h1 {
+.home-title h1 {
     font-weight: 700;
     font-size: 7rem;
 }
 
-.home-content span {
-    color: var(--main-color);
+.home-title span {
+    color: var(--main-color010);
 }
 
-.home-content h3 {
+.home-title h3 {
     font-size: 3rem;
 }
 
-.home-content p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    max-width: 1000px;
-}
-
-.soial-icons a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4.5rem;
-    font-size: 2.5rem;
-    background: transparent;
-    border: 0.2rem solid var(--main-color);
-    color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
-}
-
-
 .home-img img{
+    position: relative;
+    top: 3rem;
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 15vw;
+    box-shadow: 0 0 50px var(--main-color010);
+}
+
+.text-animation {
+    font-size: 2rem;
+    font-weight: 600;
+    min-width: 280px;
+    overflow: hidden;
+}
+
+.text-animation span {
+    position: relative;
+}
+
+.text-animation span::before {
+    content: "Desenvolvedora Front-End";
+    color: var(--main-color02);
+    animation: words 20s infinite;
+}
+
+
+.text-animation span::after {
+    content: '';
+    background-color: var(--primary-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--main-color011);
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(40) infinite; /* Adjust steps to 40 */
+}
+
+
+@keyframes cursor {
+    from, to { border-color: transparent }
+    50% { border-color: var(--main-color012) }
+}
+
+@keyframes words {
+    0%,
+    100% {
+        content: "Desenvolvedora Front-End";
+    }
+}
+
+@keyframes typing {
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
 }

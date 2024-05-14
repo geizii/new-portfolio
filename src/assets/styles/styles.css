@@ -2,14 +2,25 @@
 @import url("reset.css");
 @import url("header.css");
 @import url("home.css");
+@import url("about.css");
 @import url("footer.css");
+@import url("skills.css");
+@import url("projects.css");
+@import url("scroll.css");
 
 
 :root {
     --primary-color: #021002;
     --secondary-color:  #101010;
+
     --text-color: #fff;
-    --main-color: #900bf5;
+    
+    --main-color010: #ffb180;
+    --main-color011: #ffd462;
+    --main-color012: #fc6c6d;
     --grey:#535357;
 }
 
+.title {
+    font-size: 3.5rem;
+}

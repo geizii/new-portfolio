@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geiziane Souza</title>
 
+    <!-- Arquivo CSS -->
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- Arquivo Scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Arquivo BOXICONS -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+
+    <script src="/src/assets/js/reveal.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -25,27 +30,115 @@
     </header>
 
     <section class="home" id="home">
-        <div class="home-img">
-            <img src="/src/assets/img/eu.jpg" alt="minha foto">
+        <div class="home-img efeito-home-img">
+            <img src="/src/assets/img/eu.png" alt="minha foto">
         </div>
 
-        <div class="home-content">
+        <div class="home-title efeito-home-title">
             <h1>Olá, meu nome é <span>Geiziane</span> !</h1>
-            <h3 class="text-animation">Eu sou</h3>
-            <p>Meu primeiro contato com o front-end foi quando eu escolhi migrar de carreira em 2022 e conheci o UX/UI design.
-            Neste mesmo cenário eu descobri o HTML e CSS, que me levou a estudar Javascript e lógica de programação. 
-            Em 2022 eu iniciei Análise e Desenvolvimento de Sistemas e me mantenho estudando a tecnologia desde então.</p>
-        </div>
-
-        <div class="social-icons">
-            <a target="_blank" href="https://www.linkedin.com/in/geiziane-souza/"><i class='bx bxl-linkedin'></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/geiziane-souza/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5521986264801&text=Ol%C3%A1%20Geiziane,%20preciso%20de%20um%20job!" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+            <h3 class="text-animation">Eu sou <span></span></h3>
         </div>
     </section>
     
-    <footer>
-        <p>&copy;2024 Geiziane Souza | Todos os direitos reservados</p>
+    <section class="about" id="about">
+        <div class="about-content efeito-about-content">
+            <h2 class="title">Sobre mim</h2>
+            <p>Meu primeiro contato com o Front-end aconteceu em 2022, quando resolvi mudar de carreira, eu sou formada em Arquitetura e Urbanismo e decidi por seguir a minha vida fazendo o que eu realmente sempre gostei</p>
+        </div>
+
+        <div class="about-contact efeito-about-contact">
+            <a href="/src/assets/pdf/CV_geiziane-2024.pdf" class="btn">Download CV</a>
+            <a href="mailto:gecode.desenvolvimentoweb@gmail.com" class="btn">Entrar em contato</a>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="title">Skills</h2>
+
+        <ul class="skills-list ">    
+            <li class="skills-item efeito-skills-item">
+                <img src="./img/icons/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="skills-item efeito-skills-item"">
+                <img src="./img/icons/css.svg" alt="Logo CSS">
+            </li>
+            <li class="skills-item efeito-skills-item"">
+                <img src="./img/icons/javascript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="skills-item efeito-skills-item"">
+                <img src="./img/icons/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="skills-item efeito-skills-item"">
+                <img src="./img/icons/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="skills-item efeito-skills-item"">
+                <img src="./img/icons/SASS.svg" alt="Logo SASS">
+            </li>
+        </ul>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projetos</h2>
+
+        <div class="projects-container ">
+            <div class="projects-box efeito-projects-box1">
+                <img src="./img/coming-soon.jpg" alt="">
+                <div class="projects-info efeito-projects-info">
+                    <h4>Project title</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>TypeScript • Angular • Bootstrap</p>
+                </div>
+                <div class="social">
+                    <a target=_blank href="https://github.com/samaracaldas/ice-land"><i class='bx bxl-github'></i></a>
+                    <a target=_blank href="https://ice-land.vercel.app/"></a>
+                </div>
+            </div>
+            <div class="projects-box efeito-projects-box2">
+                <img src="./img/coming-soon.jpg" alt="">
+                <div class="projects-info efeito-projects-info">
+                    <h4>Project title</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>TypeScript • Angular • Bootstrap</p>
+                </div>
+                <div class="social">
+                    <a target=_blank href="https://github.com/samaracaldas/ice-land"><i class='bx bxl-github'></i></a>
+                    <a target=_blank href="https://ice-land.vercel.app/"></a>
+                </div>
+            </div>
+            <div class="projects-box efeito-projects-box3">
+                <img src="./img/coming-soon.jpg" alt="">
+                <div class="projects-info efeito-projects-info">
+                    <h4>Project title</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>TypeScript • Angular • Bootstrap</p>
+                </div>
+                <div class="social">
+                    <a target=_blank href="https://github.com/samaracaldas/ice-land"><i class='bx bxl-github'></i></a>
+                    <a target=_blank href="https://ice-land.vercel.app/"></a>
+                </div>
+            </div>
+            <div class="projects-box efeito-projects-box4">
+                <img src="./img/coming-soon.jpg" alt="">
+                <div class="projects-info efeito-projects-info">
+                    <h4>Project title</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>TypeScript • Angular • Bootstrap</p>
+                </div>
+                <div class="social">
+                    <a target=_blank href="https://github.com/samaracaldas/ice-land"><i class='bx bxl-github'></i></a>
+                    <a target=_blank href="https://ice-land.vercel.app/"></a>
+                </div>
+            </div>
+            <div class="loading">
+                <button type="button" class="loading-btn">Carregar mais...</button>
+            </div>
+    </section>
+
+    <footer class="footer-content">
+        <p class="copy">&copy;2024 Geiziane Souza | Todos os direitos reservados</p>
     </footer>
+
+    <script src="/src/assets/js/main.js"></script>
 </body>
 </html>

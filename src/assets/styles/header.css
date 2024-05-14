@@ -9,12 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* box-shadow: 0 10px 10px var(--main-color012); */
     z-index: 100;
 }
 
 .logo {
     cursor: pointer;
-}
+}   
 
 .navbar a {
     margin-left: 3rem;
@@ -25,5 +26,5 @@
 
 .navbar a:hover,
 .navbar a:active {
-    color: var(--main-color);
+    color: var(--main-color012);
 }

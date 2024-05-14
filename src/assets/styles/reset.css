@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    background: var(--secondary-color);
+    background: var(--secondary-color); 
     color: var(--text-color);
 }
 
