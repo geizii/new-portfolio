@@ -1,0 +1,153 @@
+@media(max-width:1285.60px) {
+    hmtl {
+        font-size: 55%;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .projects-container {
+        padding-bottom:  7rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 5rem;
+    }
+}
+
+@media(max-width:991px) {
+    header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .skills {
+        padding-bottom: 7rem;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width:895px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        border-left: 3px solid var(--main-color010);
+        border-bottom: 3px solid var(--main-color010);
+        border-bottom-left-radius: 2em;
+        border-left: 2px solid var(--main-color010);
+        border-bottom: 2px solid var(--main-color010);
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+    }
+
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
+
+    .heading {
+        font-size: 5rem;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+        gap: 2rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 8rem;
+        margin-top: 3rem;
+    }
+
+    .home-content p {
+        max-width: 600px;
+    }
+
+    .home-img img {
+        width: 56vw;
+        margin-top: -3rem;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .about-content {
+        margin: 2rem 4rem;
+    }
+
+}
+
+@media(max-width:600px) {
+    
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+        gap: 5rem;
+    }
+
+    
+    .home-content h1 {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+    
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+
+    .text-animation span::before {
+        font-size: 18px; /* Adjust font size for better visibility on smaller screens */
+    }
+
+    .skills-container {
+        margin-top: 8rem;
+    }
+}
+
+@media(max-width:413px) {
+    
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+        gap: 5rem;
+    }
+
+    
+    .home-content h1 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    .home-content h3 {
+        font-size: 17px;
+    }
+
+    .text-animation {
+        font-size: 18px;
+    }
+
+
+    .text-animation span::before {
+        font-size: 16px; /* Adjust font size for better visibility on smaller screens */
+    }
+}
