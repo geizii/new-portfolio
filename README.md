@@ -5,7 +5,10 @@
 
 <p align="center">Este é portfólio é uma vitrine dos meus projetos e da evoluação das minhas habilidades ao longo da minha jornada como desenvolvedora</p>
 
-## Stack utilizada
 
-**Front-end:** HTML, CSS e Javascript
+<h2 align="center">Stack utilizada</h2>
+
+- HTML
+- CSS 
+- Javascript
 
