@@ -122,7 +122,7 @@
     }
 }
 
-@media(max-width:412px) {
+@media(max-width:420px) {
     
     .home {
         flex-direction: column;
@@ -148,6 +148,11 @@
 
     .text-animation span::before {
         font-size: 1rem;
+    }
+
+    .about-content p {
+        text-align: justify;
+        font-size: .825rem;
     }
 
     .about-contact {
