@@ -1,4 +1,4 @@
-<h1 align="center">Bem-vindo ao meu portfólio :sparks:</h1>
+<h1 align="center">Bem-vindo ao meu portfólio ✨</h1>
 <img alt="Screenshot do site"src="./src/assets/img/tela.png" />
 
 <h2 align="center">Descrição do projeto</h2>
