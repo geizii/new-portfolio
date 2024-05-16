@@ -90,7 +90,7 @@
     }
 
     .about-content {
-        margin: 2rem 4rem;
+        margin: 3rem 5rem;
     }
 
 }
@@ -103,9 +103,8 @@
         gap: 5rem;
     }
 
-    
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 1rem;
         margin-top: 3rem;
     }
     
@@ -123,7 +122,7 @@
     }
 }
 
-@media(max-width:413px) {
+@media(max-width:412px) {
     
     .home {
         flex-direction: column;
@@ -132,22 +131,44 @@
     }
 
     
-    .home-content h1 {
-        font-size: 3.5rem;
+    .home-title h1 {
+        font-size: 3rem;
         margin-top: 3rem;
         padding-bottom: 2rem;
     }
     
-    .home-content h3 {
-        font-size: 17px;
+    .home-title h3 {
+        font-size: 1rem;
     }
 
-    .text-animation {
-        font-size: 18px;
+    .text-animation span {
+        font-size: 1rem;
     }
 
 
     .text-animation span::before {
-        font-size: 16px; /* Adjust font size for better visibility on smaller screens */
+        font-size: 1rem;
+    }
+
+    .about-contact {
+        flex-direction: column;
+    }
+
+    .about-contact .btn  {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-item {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .footer-content {
+        font-size: .825rem;
     }
 }
