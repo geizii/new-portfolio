@@ -6,7 +6,9 @@
 .efeito-projects-box2,
 .efeito-projects-box3,
 .efeito-projects-box4,
-.efeito-projects-info1 {
+.efeito-projects-info1, 
+.efeito-skills-item,
+.efeito-skills-title {
     visibility: hidden;
 }
 

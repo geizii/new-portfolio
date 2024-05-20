@@ -11,6 +11,18 @@ revelar.reveal('.efeito-home-title', {
     distance: '90px',
 })
 
+revelar.reveal('.efeito-skills-title', {
+    duration: 2000,
+    distance: '100px',
+    delay: 1000
+})
+
+revelar.reveal('.feito-skills-item', {
+    duration: 2000,
+    distance: '90px',
+    delay: 1000
+})
+
 revelar.reveal('.title', {
     duration: 2000,
     distance: '90px',
