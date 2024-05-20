@@ -1,14 +1,10 @@
-.projects h2 {
-    margin-bottom: 8rem;
-    text-align: center;
-}
-
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1rem;
 }
+
 
 .projects-box {
     position: relative;
@@ -40,6 +36,3 @@
     padding: 1rem 2rem;
 }
 
-.projects-loading {
-    position: relative;
-}

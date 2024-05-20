@@ -17,7 +17,7 @@ revelar.reveal('.efeito-skills-title', {
     delay: 1000
 })
 
-revelar.reveal('.feito-skills-item', {
+revelar.reveal('.efeito-skills-list', {
     duration: 2000,
     distance: '90px',
     delay: 1000
@@ -37,6 +37,11 @@ revelar.reveal('.efeito-skills-item', {
 // Section Projects
 
 revelar.reveal('.efeito-projects-box1', {
+    duration: 2000,
+    distance: '90px',
+})
+
+revelar.reveal('.efeito-project-title', {
     duration: 2000,
     distance: '90px',
 })

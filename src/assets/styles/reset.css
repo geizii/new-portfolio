@@ -13,3 +13,11 @@
 html {
     font-family: 'Ubuntu sans', sans-serif;
 }
+
+section.about .title,
+section.skills .title,
+section.projects .title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}

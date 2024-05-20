@@ -16,7 +16,8 @@
 .about-content p {
     font-size: 1.5rem;
     padding: 1rem 2rem;
-    color: var(--grey);
+    color: var(--text-color);
+    text-align: justify;
 }
 
 .about-contact {
