@@ -8,7 +8,8 @@
 .efeito-projects-box4,
 .efeito-projects-info1, 
 .efeito-skills-item,
-.efeito-skills-title {
+.efeito-skills-title,
+.efeito-project-title {
     visibility: hidden;
 }
 
