@@ -7,7 +7,7 @@
 @import url("skills.css");
 @import url("projects.css");
 @import url("scroll.css");
-@import url("responsive.css");
+@import url("mobile.css");
 
 
 :root {
@@ -20,9 +20,18 @@
     --main-color011: #ffd462;
     --main-color012: #fc6c6d;
     --grey:#535357;
-    --github-icon: #ffb180;
 }
 
-/* .title {
-    font-size: 3.5rem;
-} */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var();
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--main-color012);
+    border-radius: 20px;
+    border: 3px solid var(--grey);
+}

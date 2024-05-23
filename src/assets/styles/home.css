@@ -33,13 +33,27 @@ section {
     font-size: 3rem;
 }
 
-.home-img img{
+.home-img img {
     position: relative;
     top: 3rem;
     border-radius: 50%;
     width: 15vw;
     box-shadow: 0 0 50px var(--main-color010);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+.bounce-img {
+    animation-name: bounce-img;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce-img {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
 
 .text-animation {
     font-size: 2rem;

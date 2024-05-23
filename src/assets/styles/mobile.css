@@ -120,6 +120,10 @@
     .skills-container {
         margin-top: 8rem;
     }
+
+    .skills-content {
+        flex-direction: column;
+    }
 }
 
 @media(max-width:420px) {
@@ -171,6 +175,7 @@
     .skills-item {
         width: 2rem;
         height: 2rem;
+        flex-direction: column;
     }
 
     .footer-content {
