@@ -1,6 +1,6 @@
-@media(max-width:1285.60px) {
+@media(max-width:1285px) {
     hmtl {
-        font-size: 55%;
+        font-size: 50%;
     }
 
     .home-content h3 {
@@ -37,7 +37,7 @@
         width: 50%;
         border-left: 3px solid var(--main-color010);
         border-bottom: 3px solid var(--main-color010);
-        border-bottom-left-radius: 2em;
+        border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color010);
         border-bottom: 2px solid var(--main-color010);
         padding: 1rem 3%;
@@ -112,9 +112,12 @@
         font-size: 2rem;
     }
 
+    .about-contact {
+        flex-direction: column;
+    }
 
     .text-animation span::before {
-        font-size: 18px; /* Adjust font size for better visibility on smaller screens */
+        font-size: 18px; 
     }
 
     .skills-container {
@@ -134,7 +137,6 @@
         gap: 5rem;
     }
 
-    
     .home-title h1 {
         font-size: 3rem;
         margin-top: 3rem;
