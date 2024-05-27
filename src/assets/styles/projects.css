@@ -9,6 +9,8 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    width: 400px;
+    height: 350px;
     flex-direction: column;
     border-radius: 2rem;
     border: 3px solid transparent;
