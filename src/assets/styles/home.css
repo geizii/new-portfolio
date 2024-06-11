@@ -68,7 +68,7 @@ section {
 
 .text-animation span::before {
     content: "Desenvolvedora Front-End";
-    color: var(--main-color02);
+    color: var(--main-color012);
     animation: words 20s infinite;
 }
 
