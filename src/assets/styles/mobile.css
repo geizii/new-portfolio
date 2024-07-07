@@ -30,6 +30,10 @@
 }
 
 @media(max-width:895px) {
+    #menu-icon {
+        display: block;
+    }
+    
     .navbar {
         position: absolute;
         top: 100%;
@@ -129,7 +133,7 @@
     }
 }
 
-@media(max-width:420px) {
+@media(max-width:412px) {
     
     .home {
         flex-direction: column;
@@ -138,7 +142,7 @@
     }
 
     .home-title h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-top: 3rem;
         padding-bottom: 2rem;
     }
@@ -153,10 +157,10 @@
 
 
     .text-animation span::before {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
-    .about-content p {
+/*     .about-content p {
         text-align: justify;
         font-size: 1rem;
     }
@@ -182,5 +186,5 @@
 
     .footer-content {
         font-size: .825rem;
-    }
+    } */
 }

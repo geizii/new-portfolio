@@ -3,9 +3,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 15%;
+    padding: 2rem 10%;
     background: var(--primary-color);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,3 +38,8 @@ nav a {
     color: var(--main-color012);
 }
 
+#menu-icon {
+    font-size: 3rem;
+    color: var(--main-color012);
+    display: none;
+}
