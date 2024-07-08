@@ -7,7 +7,8 @@
 .projects-box {
     position: relative;
     overflow: hidden;
-    width: 400px; 
+    width: 300px; 
+    height: 200px;
     margin: 10px;
     border: 1px solid #c79e9e;
     border-radius: 10px;
