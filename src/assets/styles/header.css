@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 10%;
+    padding: 10px 10%;
     background: var(--primary-color);
     backdrop-filter: blur(10px);
     display: flex;
