@@ -2,6 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
+}
+
+.projects-container {
+    flex: 1 1 calc(33.333% - 20px); /* Permite 3 imagens por linha, considerando o espaçamento */
+    max-width: 100%; 
 }
 
 .projects-box {
