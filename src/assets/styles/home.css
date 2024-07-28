@@ -8,7 +8,7 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 15rem;
+    gap: 6rem;
 }
 
 .home-title {
@@ -22,7 +22,7 @@ section {
 
 .home-title h1 {
     font-weight: 700;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 .home-title span {
