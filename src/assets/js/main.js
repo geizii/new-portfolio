@@ -1,13 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var cards = document.querySelectorAll('.projects-box');
-    
-    cards.forEach(function(card) {
-        card.addEventListener('click', function() {
-            var url = card.getAttribute('data-url');
-            if (url) {
-                window.open(url, '_blank');
-            }
-        });
-    });
-});
+const toggleBtn = document.querySelector('.toggle-btn');
+        const navbarNav = document.querySelector('.navbar-nav');
 
+        toggleBtn.addEventListener('click', () => {
+            navbarNav.classList.toggle('show');
+        });

@@ -43,7 +43,8 @@ section {
     animation-iteration-count: infinite;
 }
 
-.bounce-img {
+
+/* .bounce-img {
     animation-name: bounce-img;
     animation-timing-function: linear;
 }
@@ -52,7 +53,7 @@ section {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-100px); }
     100% { transform: translateY(0); }
-}
+} */
 
 
 .text-animation {

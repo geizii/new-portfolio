@@ -1,5 +1,6 @@
+/* Estilos gerais para telas menores */
 @media(max-width:1285px) {
-    hmtl {
+    html {
         font-size: 50%;
     }
 
@@ -8,9 +9,9 @@
     }
 
     .projects-container {
-        padding-bottom:  7rem;
+        padding-bottom: 7rem;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0 5rem;
+        margin: 0 2rem;
     }
 }
 
@@ -18,12 +19,15 @@
     header {
         padding: 2rem 3%;
     }
+
     section {
-        padding: 10rem 3% 2rem;
+        padding: 8rem 3% 2rem;
     }
+
     .skills {
-        padding-bottom: 7rem;
+        padding-bottom: 5rem;
     }
+
     .footer {
         padding: 2rem 3%;
     }
@@ -38,150 +42,151 @@
         position: absolute;
         top: 100%;
         right: 0;
-        width: 50%;
-        border-left: 3px solid var(--main-color010);
-        border-bottom: 3px solid var(--main-color010);
-        border-bottom-left-radius: 2rem;
-        border-left: 2px solid var(--main-color010);
+        width: 100%;
+        border-left: none;
         border-bottom: 2px solid var(--main-color010);
-        padding: 1rem 3%;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem 5%;
         background: rgba(0, 0, 0, 0.9);
         display: none;
     }
 
-    .navbar.active{
+    .navbar.active {
         display: block;
     }
 
     .navbar a {
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 2rem 0;
         color: white;
     }
 
-    .heading {
-        font-size: 5rem;
-    }
-
     .home {
         flex-direction: column;
-        margin: 5rem 4rem;
+        margin: 3rem 2rem;
         gap: 2rem;
     }
 
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-
     .home-content h1 {
-        font-size: 8rem;
-        margin-top: 3rem;
+        font-size: 5rem;
+        margin-top: 2rem;
     }
 
-    .home-content p {
-        max-width: 600px;
-    }
-
-    .home-img img {
-        width: 56vw;
-        margin-top: -3rem;
-    }
-
-    .about {
-        flex-direction: column;
-        gap: 5rem;
-    }
-
-    .about-content {
-        margin: 3rem 5rem;
-    }
-
-}
-
-@media(max-width:600px) {
-    
-    .home {
-        flex-direction: column;
-        margin: 5rem 4rem;
-        gap: 5rem;
-    }
-
-    .home-content h1 {
-        font-size: 1rem;
-        margin-top: 3rem;
-    }
-    
     .home-content h3 {
         font-size: 2rem;
     }
 
-    .about-contact {
-        flex-direction: column;
+    .home-content p {
+        max-width: 100%;
     }
 
-    .text-animation span::before {
-        font-size: 18px; 
+    .home-img img {
+        width: 100%;
+        margin-top: -2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .about-content {
+        margin: 3rem 2rem;
+    }
+}
+
+@media(max-width:600px) {
+    html {
+        font-size: 45%;
+    }
+
+    .home {
+        margin: 2rem 1rem;
+        gap: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    
+    .home-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-contact {
+        flex-direction: column;
+        gap: 1.5rem;
     }
 
     .skills-container {
-        margin-top: 8rem;
+        margin-top: 6rem;
     }
 
     .skills-content {
         flex-direction: column;
     }
+
+    .projects-container {
+        margin: 0 1rem;
+    }
+
+    .projects-box {
+        margin-bottom: 2rem;
+    }
 }
 
 @media(max-width:412px) {
-    
-    .home {
+    html {
+        font-size: 40%;
+    }
+
+    .about {
+        display: flex;
         flex-direction: column;
-        margin: 5rem 4rem;
-        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Ocupa 100% da altura da tela */
+        padding: 1rem; /* Redução do padding para economizar espaço */
+        box-sizing: border-box;
     }
 
     .home-title h1 {
-        font-size: 3.5rem;
-        margin-top: 3rem;
-        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        margin-top: 0;
+        padding-bottom: 0.5rem;
     }
     
     .home-title h3 {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
-    .text-animation span {
-        font-size: 1rem;
-    }
-
-
-    .text-animation span::before {
-        font-size: 16px;
-    }
-
-    .about-content{
+    .about-content {
         text-align: center;
-        font-size: 1rem;
+        font-size: 2rem;
+        margin: 0.5rem 0; /* Margens reduzidas */
+        line-height: 1.4;  /* Espaçamento entre linhas reduzido */
     }
 
     .about-contact {
+        display: flex;
         flex-direction: column;
-        gap: 2rem;
+        align-items: center;
+        gap: 0.5rem;
+        width: 100%; /* Garante que os botões se ajustem à largura */
     }
 
-    .title h2 {
-        font-size: 1.5rem;
+    .about-contact a {
+        text-align: center;
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        width: 90%;  /* Reduzido para 90% para evitar bordas */
     }
-
-    /*.skills-item {
-        width: 2rem;
-        height: 2rem;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    } */
 
     .footer-content {
-        font-size: .825rem;
-    } 
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
